@@ -1,15 +1,13 @@
-# My Athena Project 🌸
+1. What your project is/does (and what it's called)
+- This project is a simple to do list to keep track of your tasks. When you completed each tasks, the bar filled with colors. 
+- It's called to-do-list & progress check
 
-This project is a simple to do list to keep track of your tasks. When you completed each tasks, the bar filled with colors. 
+2. Why you made your project
+I made this because I love keeping track of stuffs and I wanted some aesthetic website for the todolist
 
-## Features
-- Uses HTML, CSS, and JavaScript
-- Displays dynamic date information
-- Simple and clean layout
-- beautiful gradiation progress bar
+3. How you made your project
+I used html, javascript, css
 
-## How to Run
-Open todolist from the file
-
-## Author
-Yui Ohnuki
+4. What you struggled with and what you learned
+I struggled in making a class because there are a lot of buttons and wanted to have unique color for every buttons. 
+Leaned how to make a class which is easy to be identified.
