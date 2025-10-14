@@ -40,7 +40,7 @@ input[type="text"]:focus {
 button {
     padding: 10px 18px;
     background: #0B1957;
-    color: #0B1957;
+    color: #d1d5db;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
@@ -49,7 +49,7 @@ button {
 }
 
 button:hover {
-    background: #0B1957;
+    background: #ced5f4;
 }
 
 ul {
@@ -76,9 +76,13 @@ li.completed {
     background: #e0e7ff;
 }
 
+.controls button {
+  background: #ffffff;
+}
+
 li button {
     background: #0B1957;
-    color: #0B1957;
+    color: #919295;
     border: none;
     border-radius: 6px;
     padding: 6px 12px;
@@ -98,7 +102,7 @@ li button:hover {
 .taskText { margin-left:6px }
 .remove-btn { background:transparent; border:none; cursor:pointer }
 .progress { background:#eee; height:12px; width:100%; border-radius:6px; overflow:hidden; margin-top:8px }
-.progress-fill { height:100%; width:0%; background:linear-gradient(90deg,#4caf50,#81c784); transition:width .2s }
+.progress-fill { height:100%; width:0%; background:linear-gradient(90deg,#edffb9,#cdebcf); transition:width .2s }
 
 /* Small viewport tweaks */
 @media (max-width:420px){
