@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Todo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="date">
+        <div id="dayName">Day</div>
+        <div><span id="dayNumber">1</span> <span id="monthName">Month</span></div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input id="newTask" type="text" placeholder="New task" />
+      <button id="addBtn">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <div style="margin-top:12px">
+      <div class="progress"><div class="progress-fill"></div></div>
+      <div id="progress-label" style="margin-top:6px;font-size:13px;color:#333">0 tasks done</div>
+    </div>
+  </div>
+
+  <script src="todo.js"></script>
+</body>
+</html>

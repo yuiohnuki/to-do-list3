@@ -1,0 +1,112 @@
+body {
+    background: #F8F3EA;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(60, 72, 88, 0.12);
+    padding: 32px 24px;
+}
+
+h1 {
+    text-align: center;
+    color: #0B1957;
+    font-weight: 700;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 10px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-right: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+    border-color: #0B1957;
+}
+
+button {
+    padding: 10px 18px;
+    background: #0B1957;
+    color: #0B1957;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #0B1957;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+li {
+    background: #f3f4f6;
+    margin-bottom: 12px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #0B1957;
+    background: #e0e7ff;
+}
+
+li button {
+    background: #0B1957;
+    color: #0B1957;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+li button:hover {
+    background: #0B1957;
+}
+
+/* Additional UI styles */
+.header { display:flex; gap:12px; align-items:center; margin-bottom:18px }
+.date { font-weight:600; font-size:14px }
+.controls { display:flex; gap:8px; margin-bottom:12px }
+.taskText { margin-left:6px }
+.remove-btn { background:transparent; border:none; cursor:pointer }
+.progress { background:#eee; height:12px; width:100%; border-radius:6px; overflow:hidden; margin-top:8px }
+.progress-fill { height:100%; width:0%; background:linear-gradient(90deg,#4caf50,#81c784); transition:width .2s }
+
+/* Small viewport tweaks */
+@media (max-width:420px){
+    .container{margin:16px;padding:20px}
+    input[type="text"]{width:65%}
+}
+
+/* Ensure completed task text color is visible */
+li.completed, li.completed * {
+    color: #0B1957 !important;
+}
