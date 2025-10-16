@@ -11,3 +11,5 @@ I used html, javascript, css
 4. What you struggled with and what you learned
 I struggled in making a class because there are a lot of buttons and wanted to have unique color for every buttons. 
 Leaned how to make a class which is easy to be identified.
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
