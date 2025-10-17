@@ -12,4 +12,8 @@ I used html, javascript, css
 I struggled in making a class because there are a lot of buttons and wanted to have unique color for every buttons. 
 Leaned how to make a class which is easy to be identified.
 
+<<<<<<< HEAD
 [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+=======
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+>>>>>>> f5e434b5a61afebb10a0a899d15b0d9603a8d6b0
